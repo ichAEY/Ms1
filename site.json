@@ -1,0 +1,86 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ichAEY/tanem-site-engine-v2/v0.1.0/site.schema.json",
+  "version": 2,
+  "layout": "master",
+  "specialty": "nails",
+  "brand": {
+    "name": "Maria Mayer Nails",
+    "subtitle": "мастер ногтевого сервиса",
+    "monogram": "M"
+  },
+  "master": {
+    "name": "Maria Mayer Nails",
+    "profession": "мастер ногтевого сервиса",
+    "locationLabel": "Москва · ул. Коминтерна",
+    "heroTitle": "Maria Mayer Nails",
+    "heroAccent": "маникюр и педикюр",
+    "heroCopy": "Маникюр, покрытие и наращивание ногтей с записью по предварительной договорённости.",
+    "experience": "по записи",
+    "experienceLabel": "приём",
+    "aboutTitle": "Maria Mayer Nails",
+    "aboutLead": "Маникюр, покрытие и наращивание ногтей с записью по предварительной договорённости.",
+    "aboutParagraphs": [
+      "Maria Mayer Nails — ногтевая студия в Москве на улице Коминтерна.",
+      "В карточке указаны маникюр, педикюр, дизайн и наращивание ногтей; доступна предварительная запись."
+    ],
+    "skills": ["Маникюр и педикюр", "Наращивание ногтей", "Дизайн ногтей"]
+  },
+  "location": {
+    "city": "Москва",
+    "address": "Москва, улица Коминтерна, 15",
+    "mapCardAddress": "улица Коминтерна, 15",
+    "scheduleLabel": "По предварительной записи",
+    "timezone": "Europe/Moscow",
+    "weeklyHours": [],
+    "mapEmbedUrl": "https://yandex.ru/map-widget/v1/?oid=186899641276&mode=search"
+  },
+  "contacts": [
+    {"type":"phone","label":"Позвонить","value":"+7 (916) 967-77-77","url":"tel:+79169677777","primary":true},
+    {"type":"booking","label":"Записаться","url":"https://mst.link/mayer_mariya5"},
+    {"type":"map","label":"Открыть Яндекс Карты","url":"https://yandex.ru/maps/org/studiya_manikyura_marii_mayyer/186899641276/"}
+  ],
+  "reputation": {"rating":"5,0","reviewCount":"91","reviewsUrl":"https://yandex.ru/maps/org/studiya_manikyura_marii_mayyer/186899641276/reviews/"},
+  "hero": {
+    "portrait":{"src":"assets/hero.svg","alt":"Maria Mayer Nails — мастер ногтевого сервиса"},
+    "aboutPhoto":{"src":"assets/about.svg","alt":"Maria Mayer Nails — мастер ногтевого сервиса"},
+    "mobileVisual":{"src":"assets/mobile.svg","alt":""},
+    "thirdStat":"reviews"
+  },
+  "portfolio": {
+    "title":"Направления работы",
+    "lead":"Основные услуги и направления",
+    "gallery":[
+      {"src":"assets/work-1.svg","alt":"Maria Mayer Nails — направление работы 1"},
+      {"src":"assets/work-2.svg","alt":"Maria Mayer Nails — направление работы 2"},
+      {"src":"assets/work-3.svg","alt":"Maria Mayer Nails — направление работы 3"}
+    ],
+    "beforeAfter":[]
+  },
+  "services": {
+    "intro":"Стоимость указана по доступной публичной информации. Для услуг без опубликованной цены уточните стоимость при записи.",
+    "categories":[{
+      "id":"manicure",
+      "label":"Маникюр",
+      "services":[
+        {"name":"Маникюр Комплекс Mid","description":"Снятие гель-лака, маникюр, выравнивание и покрытие гель-лаком.","price":{"type":"fixed","value":"2 800 ₽"},"bookingUrl":"https://mst.link/mayer_mariya5"},
+        {"name":"Маникюр с покрытием","description":"Классический маникюр с покрытием.","price":{"type":"text","value":"1 500–2 000 ₽"},"bookingUrl":"https://mst.link/mayer_mariya5"},
+        {"name":"Наращивание ногтей (длина 4–6)","description":"Маникюр, наращивание и покрытие гель-лаком.","price":{"type":"fixed","value":"4 800 ₽"},"bookingUrl":"https://mst.link/mayer_mariya5"}
+      ]
+    }]
+  },
+  "promotions": [],
+  "reviews": [],
+  "amenities": [
+    {"title":"Wi‑Fi","text":"Доступен в студии"},
+    {"title":"Парковка","text":"Указана в карточке организации"},
+    {"title":"Подарочные сертификаты","text":"Доступны по информации Яндекс Карт"}
+  ],
+  "seo": {
+    "title":"Maria Mayer Nails — мастер ногтевого сервиса в Москве",
+    "description":"Maria Mayer Nails: мастер ногтевого сервиса. Услуги, контакты и запись.",
+    "keywords":["Maria Mayer Nails","мастер ногтевого сервиса","Москва"],
+    "locale":"ru_RU"
+  },
+  "analytics": {},
+  "deployment": {}
+}
